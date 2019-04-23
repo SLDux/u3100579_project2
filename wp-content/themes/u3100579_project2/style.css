@@ -2,3 +2,9 @@
 Theme Name: AS Mid Century Canberra Theme 
 Template: flexia
 */
+
+/* testing the autoupdate */
+.site-title, a {
+    color: aqua;
+    
+}
