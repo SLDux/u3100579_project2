@@ -13,3 +13,9 @@ Template:     flexia
 /**
  * Write here your own personal stylesheet
  */
+
+.entry-title {
+    
+    font-weight: 400;
+
+}
