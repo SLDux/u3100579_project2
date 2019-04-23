@@ -4,6 +4,6 @@ Template: flexia
 */
 
 /* testing the autoupdate */
-.site-title a, .site-description {
-    color: chocolate;
+footer .flexia-site-footer {
+    background-color: blue; 
 }
