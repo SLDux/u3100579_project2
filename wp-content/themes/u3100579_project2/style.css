@@ -3,22 +3,3 @@ Theme Name: AS Mid Century Canberra Theme
 Template: flexia
 */
 
-@import url("../flexia/framework/assets/site/css/style.css");
-
-
-/* Header styles */
-.site-branding .site-title a {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin: 1em 0;
-    font-weight: 300;
-    
-}
-
-
-/* Footer styles */
-.flexia-site-footer {
-    background-color: #131313;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
