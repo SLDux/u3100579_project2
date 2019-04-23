@@ -9,11 +9,6 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  flexia-child
 Template:     flexia
 */
-
-/**
- * Write here your own personal stylesheet
- */
-
 @import url("../flexia/framework/assets/site/css/style.css");
 
 h1 .entry-title {
