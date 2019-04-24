@@ -8,7 +8,9 @@
 */
 @import url("../twentyseventeen/style.css");
 
-h1 .site-title {
-    font-weight: 300;
-    
+
+.site-title {
+  
+    font-weight: 400;
+
 }
