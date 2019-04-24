@@ -1,18 +1,8 @@
-/**
-Theme Name:   Flexia Child
-Author:       Codetic
-Author URL:   https://flexia.pro
-Description:  Flexia is a modern lightweight and versatile theme for WordPress with endless customization options. Lightweight and highly extendable with Customizer and Child Theme. True responsiveness with modern Flexbox and mobile first design. WooCommerce and Easy Downloads ready and best multi-purpose theme. Works great with any WordPress Page Builder including Elementor, Cornerstone, DIVI, Beaver Builder, Visual Composer
-Version:      1.0.0
-License:      GNU General Public License v2 or later
-License URI:  http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  flexia-child
-Template:     flexia
+/*
+ Theme Name:   u3100579_project2 theme
+ description: >-
+   A child theme of the Flexia theme
+ Author:       S D
+ Template:     flexia
+ Version:      1.0.0
 */
-/* @import url("../flexia/framework/assets/site/css/style.css");
-
-h1 .entry-title {
-    
-    font-weight: 400;
-
-}
