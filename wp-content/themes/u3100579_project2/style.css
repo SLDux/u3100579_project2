@@ -1,7 +1,7 @@
 /*
  Theme Name:   u3100579_project2-child-theme
  description: >-
-   A child theme of the Flexia theme
+   A child theme of the Twentyseventeen theme
  Author:       S D
  Template:     twentyseventeen
  Version:      1.0.0
@@ -12,5 +12,33 @@
 .site-title {
   
     font-weight: 400;
+}
+    
 
+div#header-widget-area {
+    padding: 50px;
+}
+
+
+
+/** 
+
+h2.chw-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.chw-widget {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+    font-weight: 300;
+    
 }
