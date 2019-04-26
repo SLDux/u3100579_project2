@@ -9,36 +9,87 @@
 @import url("../twentyseventeen/style.css");
 
 
+
+/* Header styles */
+
+/* Site title */
 .site-title {
   
     font-weight: 400;
 }
     
 
-div#header-widget-area {
-    padding: 50px;
+/* Nav and menu styles */
+.main-navigation ul {
+    text-align: left;
 }
 
 
 
-/** 
+/* Header widget categories styles */
+
+div#header-widget-area {
+  padding-top: 10px;
+	padding-left: 47px; 
+	padding-right: 47px; 
+	width: 100%;
+	padding-bottom: 5px; 
+	margin-left: auto; 
+	margin-right: auto; 
+    border-bottom: 0.04em solid #333;
+	
+}
 
 h2.chw-title {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 400;
+	text-align: left; 
+	text-transform: uppercase; 
+	font-size: 14px; 
+	font-weight: 600; 
+		
+}
+
+.chw-widget ul {
+    list-style: none;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.chw-widget ul li {
+    font-size: 14px;  
+	width: 100%; 
+	display: inline;
+    width: auto;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin: 7px; 
+        
 }
 
 
-.chw-widget {
-    display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 10px;
-    border-bottom: 1px solid #dddddd;
+
+/* Body styles */
+
+/* It looks like the body has a two column layout, and i'm not sure how to get rid of it yet. */
+
+/* page title */
+
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+
+
+/* Footer styles */
+/* footer site info */
+
+.site-info {
+    text-align: center;
+    padding: 0.7em 0 0;
     width: 100%;
-    font-weight: 300;
-    
+    margin-bottom: 0px; 
+    font-size: 12px; 
 }
