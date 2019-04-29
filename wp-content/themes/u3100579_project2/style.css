@@ -11,34 +11,15 @@
 
 /* Making it full width */
 
-/*
-wrap {
-	max-width: 100%;
-}
- 
-@media screen and (min-width: 48em) {
-	.wrap {
-		max-width: 100%;
-	}
-}
- 
-.page.page-one-column:not(.twentyseventeen-front-page) #primary {
-	max-width: 100%;
-}
-
-@media screen and (min-width: 30em) {
-	.page-one-column .panel-content .wrap {
-		max-width: 100%;
-	}
-}
-*/
 
 @media screen and (min-width: 48em) {
-body.page-two-column:not(.archive) #primary .entry-header,body.page-two-column:not(.archive) #primary .entry-content {
+body.page-two-column:not(.archive) #primary .entry-header,body.page-two-column:not(.archive) #primary .entry-content, .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
 float: none;
 width: 100%;
 }
 }
+
+
 
 /* Header styles */
 
@@ -108,7 +89,6 @@ h1, h2, h3 {
 
 
 
-
 /* page title */
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
@@ -116,14 +96,17 @@ h1, h2, h3 {
     font-weight: 400;
     letter-spacing: 0.14em;
     text-transform: uppercase;
+    text-align: center;
 }
+
+
 
 /* Homepage */
 
 /* about section */
 #post-47 div.entry-content p {
     text-align: center;
-    max-width: 80%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -235,6 +218,16 @@ div.homelocations a {
     width: 85%;
     font-size: 20px;
 }
+
+
+/* News */
+
+.blog-header {
+    float: none;
+    width: auto;
+    margin-bottom: 40px;
+}
+
 
 
 /* Footer styles */
