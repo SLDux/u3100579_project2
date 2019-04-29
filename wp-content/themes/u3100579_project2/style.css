@@ -9,6 +9,36 @@
 @import url("../twentyseventeen/style.css");
 
 
+/* Making it full width */
+
+/*
+wrap {
+	max-width: 100%;
+}
+ 
+@media screen and (min-width: 48em) {
+	.wrap {
+		max-width: 100%;
+	}
+}
+ 
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 30em) {
+	.page-one-column .panel-content .wrap {
+		max-width: 100%;
+	}
+}
+*/
+
+@media screen and (min-width: 48em) {
+body.page-two-column:not(.archive) #primary .entry-header,body.page-two-column:not(.archive) #primary .entry-content {
+float: none;
+width: 100%;
+}
+}
 
 /* Header styles */
 
@@ -69,10 +99,17 @@ h2.chw-title {
 
 /* Body styles */
 
-/* It looks like the body has a two column layout, and i'm not sure how to get rid of it yet. */
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+
+
 
 /* page title */
-
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
     font-size: 20px;
@@ -81,6 +118,123 @@ h2.chw-title {
     text-transform: uppercase;
 }
 
+/* Homepage */
+
+/* about section */
+#post-47 div.entry-content p {
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px
+}
+
+/* About links */
+
+p.aboutlinks {
+    text-align: center;
+    margin: 10px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    border-bottom: 0.004em solid #333;
+}
+
+a.homelink1 {
+    display: -webkit-inline-box;
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Div styles */
+
+
+.homenews {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 0.004em solid #333; 
+}
+
+div.homenews a {
+    text-align: left;
+    display: flex;
+    width: 40%;
+    font-size: 20px;
+}
+
+div.homenews  li a {
+    text-align: center;
+    margin: auto; 
+    display: flex;
+    width: auto;
+    font-size: 18px;
+}
+
+
+.homehouses {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    border-bottom: 0.004em solid #333; 
+    padding-top: 50px;
+   /* background-image: url(../../../Content/mid-century-canberra/generic%2520pics/taglietti%20dingle%20house.png) This didn't work yet*/
+}
+
+div.homehouses a {
+    text-align: left;
+    display: flex;
+    width: 85%;
+    font-size: 20px;
+    /* 
+    text-align: center;
+    display: inline-block;
+    width: 20%; */
+}
+
+.homearchitects {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    border-bottom: 0.004em solid #333; 
+}
+
+div.homearchitects a {
+    text-align: left;
+    display: flex;
+    width: 85%;
+    font-size: 20px;
+}
+
+.homelocations {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 0.004em solid #333; 
+}
+
+div.homelocations a {
+    text-align: left;
+    display: flex;
+    width: 85%;
+    font-size: 20px;
+}
 
 
 /* Footer styles */
