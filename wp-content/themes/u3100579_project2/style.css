@@ -153,8 +153,8 @@ a.homelink1 {
 }
 
 div.homenews a {
-    text-align: left;
-    display: flex;
+    text-align: center;
+    display: inline-block;
     width: 40%;
     font-size: 20px;
 }
@@ -179,8 +179,8 @@ div.homenews  li a {
 }
 
 div.homehouses a {
-    text-align: left;
-    display: flex;
+    text-align: center;
+    display: inline-block;
     width: 85%;
     font-size: 20px;
     /* 
@@ -200,8 +200,8 @@ div.homehouses a {
 }
 
 div.homearchitects a {
-    text-align: left;
-    display: flex;
+    text-align: center;
+    display: inline-block;
     width: 85%;
     font-size: 20px;
 }
@@ -217,8 +217,8 @@ div.homearchitects a {
 }
 
 div.homelocations a {
-    text-align: left;
-    display: flex;
+    text-align: center;
+    display: inline-block;
     width: 85%;
     font-size: 20px;
 }
