@@ -122,7 +122,7 @@ p.aboutlinks {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 50px;
-    border-bottom: 0.004em solid #333;
+    /* border-bottom: 0.004em solid #333; */
 }
 
 a.homelink1 {
@@ -144,7 +144,7 @@ a.homelink1 {
     text-transform: uppercase;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: 0.004em solid #333; 
+
 }
 
 div.homenews a {
@@ -169,7 +169,6 @@ div.homenews  li a {
     width: 100%;
     text-transform: uppercase;
     padding-bottom: 100px;
-    border-bottom: 0.004em solid #333; 
     padding-top: 50px;
    /* background-image: url(../../../Content/mid-century-canberra/generic%2520pics/taglietti%20dingle%20house.png) This didn't work yet*/
 }
@@ -192,7 +191,7 @@ div.homehouses a {
     text-transform: uppercase;
     padding-bottom: 150px;
     padding-top: 100px;
-    border-bottom: 0.004em solid #333; 
+
 }
 
 div.homearchitects a {
@@ -209,7 +208,7 @@ div.homearchitects a {
     text-transform: uppercase;
     padding-bottom: 50px;
     padding-top: 50px;
-    border-bottom: 0.004em solid #333; 
+ 
 }
 
 div.homelocations a {
