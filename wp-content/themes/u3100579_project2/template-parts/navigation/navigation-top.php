@@ -10,14 +10,14 @@
 
 ?>
 <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
+	
+		<?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
 	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
 		<?php
 		echo twentyseventeen_get_svg( array( 'icon' => 'bars' ) );
 		echo twentyseventeen_get_svg( array( 'icon' => 'close' ) );
 		_e( 'Menu', 'twentyseventeen' );
 		?>
-		
-		<?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
 	</button>
 
 	<?php
