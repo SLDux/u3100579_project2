@@ -143,7 +143,7 @@ a.homelink1 {
 
 
 .homenews {
-    margin-top: 80px;
+    margin-top: 10px;
     margin-bottom: 100px;
     width: 100%;
     text-transform: uppercase;
@@ -169,13 +169,12 @@ div.homenews  li a {
 
 
 .homehouses {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 100px;
     width: 100%;
     text-transform: uppercase;
     padding-bottom: 100px;
     padding-top: 50px;
-   /* background-image: url(../../../Content/mid-century-canberra/generic%2520pics/taglietti%20dingle%20house.png) This didn't work yet*/
 }
 
 div.homehouses a {
@@ -208,7 +207,7 @@ div.homearchitects a {
 
 .homelocations {
     margin-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     width: 100%;
     text-transform: uppercase;
     padding-bottom: 50px;
