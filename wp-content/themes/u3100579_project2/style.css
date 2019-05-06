@@ -26,6 +26,16 @@ body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.erro
 }
 }
 
+/* Locations alignment */
+body:not(.twentyseventeen-front-page) .entry-header, body:not(.twentyseventeen-front-page) .entry-content, body:not(.twentyseventeen-front-page) #comments {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#mapp0-layout {
+    margin: auto;
+}
+
 /* Header styles */
 
 /* Site title */
