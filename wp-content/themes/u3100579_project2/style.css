@@ -153,12 +153,12 @@ a.homelink1 {
 
 
 .homenews {
-    margin-top: 10px;
-    margin-bottom: 100px;
+    margin-top: 1%;
+    margin-bottom: 10%;
     width: 100%;
     text-transform: uppercase;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
 }
 
@@ -183,8 +183,8 @@ div.homenews  li a {
     margin-bottom: 100px;
     width: 100%;
     text-transform: uppercase;
-    padding-bottom: 100px;
-    padding-top: 50px;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 div.homehouses a {
@@ -203,8 +203,8 @@ div.homehouses a {
     margin-bottom: 100px;
     width: 100%;
     text-transform: uppercase;
-    padding-bottom: 150px;
-    padding-top: 100px;
+    padding-bottom: 15%;
+    padding-top: 20%;
 
 }
 
@@ -220,8 +220,8 @@ div.homearchitects a {
     margin-bottom: 10px;
     width: 100%;
     text-transform: uppercase;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 5%;
+    padding-top: 10%;
  
 }
 
