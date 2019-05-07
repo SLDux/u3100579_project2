@@ -34,7 +34,9 @@ body:not(.twentyseventeen-front-page) .entry-header, body:not(.twentyseventeen-f
 
 div#mapp0-layout {
     margin: auto;
+    width: 60%;
 }
+
 
 /* Header styles */
 
@@ -113,6 +115,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     text-align: center;
 }
+
 
 
 
@@ -283,3 +286,4 @@ div.homelocations a {
     margin-bottom: 0px; 
     font-size: 12px; 
 }
+
