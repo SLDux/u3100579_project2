@@ -200,10 +200,11 @@ div.homenews a {
 
 /* Figure left */
 figure.alignleft {
-    padding-bottom: 12%;
+    margin-bottom: 12%;
 }
 figure.alignright {
-    padding-bottom: 12%;
+    margin-bottom: 12%;
+    /*padding-bottom: 12%;*/ 
 }
 
 
