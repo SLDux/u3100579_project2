@@ -47,7 +47,7 @@ div#mapp0-layout {
 
 /* Nav and menu styles */
 .main-navigation ul {
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -152,7 +152,7 @@ a.homelink1 {
 /* Div styles */
 
 
-.homenews {
+/* .homenews {
     margin-top: 1%;
     margin-bottom: 10%;
     width: 100%;
@@ -175,6 +175,35 @@ div.homenews  li a {
     display: flex;
     width: auto;
     font-size: 18px;
+}
+*/
+
+.homenews {
+    margin-top: 0px;
+    margin-bottom: 0%;
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+div.homenews a {
+    text-align: center;
+    display: inline-block;
+    width: 85%;
+    font-size: 20px;
+    /* 
+    text-align: center;
+    display: inline-block;
+    width: 20%; */
+}
+
+/* Figure left */
+figure.alignleft {
+    padding-bottom: 12%;
+}
+figure.alignright {
+    padding-bottom: 12%;
 }
 
 
